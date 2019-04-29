@@ -17,8 +17,6 @@ These are the main functions used to create the app. Now, there is a bit more in
 ## Requirements and Versions
 - "axios": "^0.18.0",
 - "body-parser": "^1.18.3",
-- "cookie-parser": "^1.4.4",
-- "cookie-session": "^1.3.3",
 - "dotenv": "^7.0.0",
 - "express": "^4.16.4",
 - "googleapis": "^39.2.0",
@@ -33,7 +31,7 @@ These are the main functions used to create the app. Now, there is a bit more in
 ## Credentials
 - A google developer project Oauth cred
 - Slackbot cred
-- 
+
 ## Example Usage
 I did choose to create a web app so it would be pretty straightforward.
 
