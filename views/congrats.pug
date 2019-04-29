@@ -1,0 +1,10 @@
+extends index.pug
+
+block content
+    .container
+        .columns.is-centered
+            .column.is-half.has-text-centered
+                h1.title.is-1 #{title}
+                h2.subtitle.is-2 #{subTitle}
+                h3.is-3 #{eventTime}
+                a(href="/create-event").button.is-primary.is-outlined.is-centered Create Another Event Right... NOW!
