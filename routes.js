@@ -60,9 +60,9 @@ router.get('/create-event', (req, res) => {
     version: 'v3',
     client
   });
-  const now = moment();
-  const startTime = now;
-  const endTime = now.add(5, 'minutes');
+
+  const startTime = moment();
+  const endTime = moment().add(5, 'minutes');
 
   const event = {
     'summary': '5 Min Appt',
